@@ -1,6 +1,6 @@
 /**
  * @author WMXPY
- * @namespace Module
+ * @namespace Preference
  * @description Placeholder
  * @package Unit Test
  */
