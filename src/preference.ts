@@ -4,7 +4,13 @@
  * @description Preference
  */
 
+export type BarkPreferenceModuleLink = {
+
+    readonly name: string;
+    readonly path: string;
+};
+
 export type BarkPreference = {
 
-    readonly modules: string[];
+    readonly modules: BarkPreferenceModuleLink[];
 };
